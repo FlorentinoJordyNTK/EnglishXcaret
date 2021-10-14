@@ -1,12 +1,11 @@
-/**
-* Template Name: Groovin - v4.5.0
-* Template URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+/*
+  * Name: Xcaret - v1.7.0
+  * Framework Use URL: https://getbootstrap.com/
+  * Author: Jordy
+  * License: Xcaret
 */
 (function() {
   "use strict";
-
   /**
    * Easy selector helper function
    */
@@ -60,7 +59,7 @@
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
-  /**
+  /*
    * Scrolls to an element with header offset
    */
   const scrollto = (el) => {
